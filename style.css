@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* header-section */
+.header-section{
+  background-color: #e7e6e6;
+}
+.header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 10%;
+}
+.menu{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   color: #8d4040;
+   
+}
+.menu span{
+    font-size: 20px;
+}
+
+
+
+.btn{
+  width: 8%;
+}
+.btn span a {
+    text-decoration: none;
+    font-size: 19px;
+    background-color: #ffffff;
+    padding: 10px 13px;
+    border-radius: 10px;
+    color:#1a3b9c;
+}
+/* ico-section */
+.socal-menu{
+  width: 800px;
+ border: 2px solid brown;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: space-around;
+  
+}
+
+.singegle2{
+    width: 150px;
+   height:150px;
+   background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ 
+
+ .item span {
+    font-size: 24px;
+    color: #e7e6e6;
+}
+
+.team {
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 2px 20px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-tem{
+    width: 150px;
+   height: 300;
+}
+.team-members{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    
+}
+.tittle{
+    text-align: center;
+    
+}
+.tittle h4{
+  padding-top: 10px;
+}
+.tittle p{
+    padding-top: 10px;
+}
+.tittle h6{
+    padding-top: 10px;
+}
